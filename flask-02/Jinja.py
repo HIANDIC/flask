@@ -18,7 +18,9 @@ def number():
 
 
 if __name__ == '__main__':
-    app.run(port=80, debug=True)
+
+    # for local hosting
+    #app.run(port=80, debug=True)
 
     # for hosting web not local
-    #app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0', debug=True)
